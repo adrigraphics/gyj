@@ -199,6 +199,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
 }
 
+.active {
+  color: #294127;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #294127;
   text-decoration: underline;
@@ -397,16 +403,17 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff3e7;
 }
 
-.masvendidas {
+.titulo {
   font-weight: bold;
   color: #294127!important;
-  text-align: center;
+  text-align: center!important;
 }
 
 .raya {
   font-weight: bold;
   color: #ffa9a3!important;
   text-align: center;
+  margin-top: -20px;
 }
 
 /*--------------------------------------------------------------
