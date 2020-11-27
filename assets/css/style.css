@@ -390,6 +390,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Container
+--------------------------------------------------------------*/
+.secciones {
+  padding-top: 50px;
+  background-color: #fff3e7;
+}
+
+.masvendidas {
+  font-weight: bold;
+  color: #294127!important;
+  text-align: center;
+}
+
+.raya {
+  font-weight: bold;
+  color: #ffa9a3!important;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
 /* Sections Common

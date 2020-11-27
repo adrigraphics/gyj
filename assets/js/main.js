@@ -197,4 +197,13 @@
     aos_init();
   });
 
+  // Home Carousel
+
+    $("[data-toggle='tooltip']").tooltip();
+    $("[data-toggle='popover']").popover();
+    $('.carousel').carousel({
+      interval: 5000
+    });
+
+
 })(jQuery);
