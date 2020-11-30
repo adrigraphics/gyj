@@ -444,3 +444,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #6c7e70;
   padding-bottom: 50px;
 }
+
+.card-comentarios {
+  flex: 1 200px;
+  margin-top: 10px;
+  background-color: #fff3e7;
+  border-radius: 0%;
+}
+
+.card-img-top {
+  border-radius: 100%;
+  padding: 10%;
+}
+
+.cliente {
+  font-weight: bold;
+  color: #353535;
+  text-align: right;
+}
