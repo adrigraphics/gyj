@@ -472,3 +472,12 @@ footer {
 .footerlink {
   color: #fff3e7!important;
 }
+
+.footer-text {
+  font-size: 9pt;
+}
+
+.footer-address-icon {
+  padding-right: 10px;
+  color: #d5b182!important;
+}
