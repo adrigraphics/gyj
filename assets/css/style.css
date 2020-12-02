@@ -481,3 +481,20 @@ footer {
   padding-right: 10px;
   color: #d5b182!important;
 }
+
+.ccenter {
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.sitiotienda {
+  padding-top: 50px;
+  background-color: #fff3e7;
+  padding-bottom: 50px;
+}
+
+.sitiomarcas {
+  background: url(../img/hero-bg.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+}
