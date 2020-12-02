@@ -500,9 +500,19 @@ footer {
 --------------------------------------------------------------*/
 
 .sitiomarcas {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: url(../img/hero-bg.jpg) center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.marcas {
+  background-color: #fff3e7;
+  width: 80%;
 }
 
 /*--------------------------------------------------------------
