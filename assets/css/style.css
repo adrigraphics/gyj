@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #homeSlider .carousel-item::before {
   content: '';
-  background-color: rgba(19, 18, 1, 0.6);
+  background-color: rgba(19, 18, 1, 0.5);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -560,6 +560,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+@media (max-width: 1025px) {
+  .sliderimage {
+    display: none;
+  }
+  #homeSlider p {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -659,6 +675,26 @@ footer {
 .marcas {
   background-color: #fff3e7;
   width: 80%;
+}
+
+.imgmarcas {
+  padding: 50px 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.msgmarcas {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.titulomarcas {
+  padding-top: 50px;
 }
 
 /*--------------------------------------------------------------
