@@ -117,7 +117,21 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  // Home Carousel
+  // Home Slider
+  var homeCarousel = $("#homeCarousel");
+  var homeCarouselIndicators = $("#home-carousel-indicators");
+  homeCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    (index === 0) ?
+    homeCarouselIndicators.append("<li data-target='#homeCarousel' data-slide-to='" + index + "' class='active'></li>"):
+    homeCarouselIndicators.append("<li data-target='#homeCarousel' data-slide-to='" + index + "'></li>");
+  });
+
+  homeCarousel.on('slid.bs.carousel', function(e) {
+    $(this).find('h2').addClass('animate__animated animate__fadeInDown');
+    $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
+  });
+  
+  // Carousel
 
     $("[data-toggle='tooltip']").tooltip();
     $("[data-toggle='popover']").popover();
@@ -125,5 +139,6 @@
       interval: 5000
     });
 
+     
 
 })(jQuery);
