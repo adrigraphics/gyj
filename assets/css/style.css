@@ -50,6 +50,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -20px;
 }
 
+.titulocontacto {
+  font-weight: bold;
+  color: #294127!important;
+  text-align: left!important;
+}
+
+.rayacontacto {
+  font-weight: bold;
+  color: #666666;
+  text-align: left;
+  margin-top: -20px;
+}
+
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
@@ -645,6 +658,19 @@ footer {
   font-weight: bold;
   color: #d5b182;
   text-align: right;
+}
+
+
+.map-responsive iframe{
+  width:100%!important;
+}
+
+.contacto {
+  background-color: #d5b182;
+}
+
+.formulario {
+  padding: 50px;
 }
 
 /*--------------------------------------------------------------
